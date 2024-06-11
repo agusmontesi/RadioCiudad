@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Area Positiva FM Ok",
+    "slug": "area-positivafm-ok-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.WAKE_LOCK",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ],
+      "package": "com.enegraso.areapositivafmokapp",
+      "versionCode": 101
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Permitir a Area Positiva FM acceder a su micrófono?"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8fb20e02-2fa2-4cb9-b5ee-ccbc70e8dcb3"
+      }
+    }
+  }
+}
