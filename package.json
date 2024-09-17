@@ -4,8 +4,8 @@
   "main": "expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
@@ -13,12 +13,14 @@
     "@expo/vector-icons": "^14.0.2",
     "@react-native-async-storage/async-storage": "^1.23.1",
     "@react-native-community/slider": "^4.5.2",
-    "expo": "^51.0.14",
+    "expo": "~51.0.31",
     "expo-av": "^14.0.5",
+    "expo-constants": "^16.0.2",
     "expo-status-bar": "~1.12.1",
+    "expo-updates": "^0.25.24",
     "expo-web-browser": "^13.0.3",
-    "react": "^18.3.1",
-    "react-native": "0.74.2",
+    "react": "^18.2.0",
+    "react-native": "0.74.5",
     "react-native-paper": "^5.12.3",
     "react-native-version-check-expo": "^3.4.7",
     "react-native-web": "~0.19.10"

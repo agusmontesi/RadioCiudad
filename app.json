@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Area Positiva FM Ok",
-    "slug": "area-positivafm-ok-app",
+    "name": "Radio Ciudad Ok",
+    "slug": "radio-ciudad-ok-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
@@ -29,7 +32,7 @@
         "android.permission.RECORD_AUDIO",
         "android.permission.MODIFY_AUDIO_SETTINGS"
       ],
-      "package": "com.enegraso.areapositivafmokapp",
+      "package": "com.enegraso.radiociudadokapp",
       "versionCode": 101
     },
     "web": {
@@ -39,13 +42,13 @@
       [
         "expo-av",
         {
-          "microphonePermission": "Permitir a Area Positiva FM acceder a su micrófono?"
+          "microphonePermission": "Permitir a Radio Ciudad acceder a su micrófono?"
         }
       ]
     ],
     "extra": {
       "eas": {
-        "projectId": "8fb20e02-2fa2-4cb9-b5ee-ccbc70e8dcb3"
+        "projectId": "a12e5a71-4475-48f5-bf4f-a70ca4397c25"
       }
     }
   }
